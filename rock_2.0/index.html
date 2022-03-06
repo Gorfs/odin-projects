@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <title>Rock paper scissors</title>
+  </head>
+  <main class="text">
+    <!-- here is where I am going to put all the elements of the page-->
+    <header>
+      <div class="banner">
+        <h1>ROCK vs PAPER vs SCISSORS</h1>
+      </div>
+    </header>
+    <section class="game-area">
+      <div class="game-container">
+        <div class="choice-container">
+          <!--this is the place for the emoji buttons-->
+          <button class="choice">🪨</button>
+          <button class="choice">✂️</button>
+          <button class="choice">🧻</button>
+        </div>
+        <div class="choice-show">
+          <!-- here is to display the current choice-->
+          <div class="show-box"></div>
+        </div>
+        <div class="vs">VS</div>
+        <div class="pc-choice">
+          <!-- here is to show the PC's choice-->
+          <div class="show-box" id="pc-show"></div>
+        </div>
+      </div>
+      <div class="text-area">
+        <!-- here is to show the score and the other texst things for when you lose/win etc...-->
+        <div class="score">
+          <div class="score-human">0</div>
+          -
+          <div class="score-pc">0</div>
+        </div>
+        <br />
+        <br />
+      </div>
+      <div class="text-score">Hey there o/</div>
+    </section>
+  </main>
+</html>
+<script src="index.js"></script>
